@@ -1,24 +1,93 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TESTO</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>lp-practice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
     <header>
-      <nav>
-
-      </nav>
-      </header>
-      <main>
-      　<section class="keyvisual"></section><!-- メインタイトル、背景画像がある部分 -->
-      　<section class="news"></section><!-- 「NEWS」のタイトルがある部分 -->
-      　<section class="skills"></section><!-- 「SKILLS」のタイトルがある部分-->
-      　<section class="plan"></section><!-- 「SELECT PLAN」のタイトルがある部分 -->
-      　<nav class="sns"></nav><!-- iconが並んでいる部分 -->
-      </main>
-      <footer></footer>
-      
+      <div class="container">
+        <div class="header-left">
+          <span class="fas fa-archway fa-3x"></span>
+        </div>
+        
+        <div class="header-right">
+          <a href="#" class="btn contact">contact</a>
+        </div>
+      </div>
+    </header>
+    <section class="keyvisual">
+      <div class="container">
+        <h1>WEB PRODUCTION COMPANY</h1>
+        <p>DIRECTION,CONTENT,MARKETING</p>
+      </div>
+    </section>
+    <section class="news">
+     <div class="container">
+      <img src="images/news/news.png">
+      <div class="heading">
+        <h2>NEWS</h2>
+        <p>WHO THE FUCK CARES ABOUT THIS TEXT</p>
+      </div>
+     </div>
+    </section>
+    <section class="skills">
+      <div class="container">
+        <div class="skilllist is_flex">
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="images/icons/photo.png">
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="images/icons/flower.png">
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="images/icons/data.png">
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="images/icons/location.png">
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="images/icons/calender.png">
+            </div>  
+          </div>                        
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="images/icons/security.png">
+            </div>           
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
+          <h3>Let's learn to code, learn to be creative!</h3>
+        </div>
+        <a href="#" class="btn message">さっそく開発する</a>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+        <p>Learn to code, learn to be creative.</p>
+      </div>
+    </footer>
   </body>
 </html>

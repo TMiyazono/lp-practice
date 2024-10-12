@@ -44,15 +44,10 @@
     padding-top: 50px;
   }
   
-  .btn-wrapper {
+  .btn {
     text-align: center;
-    margin: 20px 0;
   }
-  
-  .btn-wrapper p {
-    margin: 10px 0;
-  }
-  
+
   .contact {
     background-color: #55acee;
   }
@@ -176,45 +171,75 @@
   }
 
   li {
-    color: white;
+    color: black;
     height: 80px;
+    font-weight: bold;
     line-height: 80px;
+    width:25%;
   }
-  .li1 {
-    background-color: #ffc562;
+
+  .plan {
+    background-color: #6ba7eb;
+    font-size: 16px;
+    width:25%;
+
   }
-  .li2 {
-    background-color: #a0c3f7;
+  .plice {
+    background-color: #f9f9f9;
+    font-size: 16px;
+    width:25%;
+
   }
-  .li3 {
-    background-color: #ff8db3;
+  .delivery {
+    background-color: #e0efff;
+    font-size: 16px;
+    width:25%;
+
   }
-  .li4 {
-    background-color: #88e7ce;
+  .analisys {
+    background-color: #f9f9f9;
+    font-size: 16px;
+    width:25%;
+  }
+
+  .inprovement {
+    background-color: #e0efff;
+    font-size: 16px;
+    width:25%;
+  }
+
+  .icons-wrapper{
+    background-color: #e3f2fd;
+    text-align:center;
+  }
+
+  .icons{
+    padding:200px 0 200px 0;
+  }
+
+  .icon{
+    color:#8c8c8c;
+    font-size:40px;
+    height:185px;
+    width:185px;
+    margin:25px 0 25px 0;
+    overflow:hidden;
   }
 
   .flex-list{
     display:flex;
-  }
-  
-  footer img {
-    width: 125px;
-  }
-  
-  footer p {
-    color: #b3aeb5;
-    font-size: 12px;
+    flex-wrap:wrap;
   }
   
   footer {
     padding-top: 30px;
     padding-bottom: 20px;
+    background-color: #cfd8dc;
   }
-  
-  .menu-icon{
-    display:none;
-    font-size:25px;
-    text-align:right;
-    color:white;
-    padding:21px 0 21px 0;
+
+  .Copyright{
+    padding:25px 0 25px 0;
+    font-size: 13px;
+    text-align: right;
+    letter-spacing:0.5px;
   }

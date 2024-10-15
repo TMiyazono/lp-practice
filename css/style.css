@@ -20,7 +20,7 @@
   }
   
   .keyvisual {
-    padding: 180px 0 100px 0;
+    padding: 400px 0;
     background-image:url("images/keyvisual/keyvisual.jpg");
     background-size: cover;
     color: white;
@@ -34,6 +34,7 @@
   }
   
   .keyvisual p {
+    margin-top: 30px;
     font-size: 40px;
     font-weight: 700;
     color: #fff;
@@ -43,21 +44,29 @@
     background-color: #e3f2fd;
     padding-top: 50px;
   }
-  
-  .btn {
-    text-align: center;
+
+  .newspic{
+    width:250px;
   }
 
-  .contact {
-    background-color: #55acee;
+  .FKDS{
+    width:250px;
   }
-  
+
+  .heading h2{
+    margin:20px 0 35px 0;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 10px;
+  }
+
+  .skills h2{
+     margin-top: 50px;
+  }
   .btn {
-    padding: 8px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
     text-align: center;
   }
   
@@ -70,7 +79,6 @@
   }
   
   header {
-    height: 65px;
     width: 100%;
     background-color: #fff;
     position :fixed;
@@ -85,20 +93,22 @@
   
   .header-left {
     float: left;
+    padding:15px 0;
   }
   
   .header-right {
     float: right;
-    margin-right: -25px;
+    padding:15px 0;
   }
   
   .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
+    line-height: 100%;
+    padding: 15px 15px;
     color: white;
     display: block;
     float: left;
     transition: all 0.5s;
+    background-color: #55acee;
   }
   
   .header-right a:hover {
@@ -113,17 +123,12 @@
   .is_flex{
     display: flex;
     flex-wrap:wrap;
-
   }
 
   .heading {
-    padding-top: 80px;
-    padding-bottom: 50px;
-    color: #5f5d60;
-  }
-  
-  .heading h2 {
-    font-weight: normal;
+    color:black;
+    width: 850px;
+    text-align: center;
   }
   
   .skill {

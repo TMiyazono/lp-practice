@@ -49,7 +49,7 @@
     width:250px;
   }
 
-  .FKDS{
+  .newsimg{
     width:250px;
   }
 
@@ -64,8 +64,9 @@
   }
 
   .skills h2{
-     margin-top: 50px;
+    margin-top: 50px;
   }
+
   .btn {
     text-align: center;
   }
@@ -76,6 +77,15 @@
   
   .fa {
     margin-right: 5px;
+    color:#8c8c8c;
+  }
+
+  .fas{
+    color:#8c8c8c;
+  }
+
+  .fa-brands{
+    color:#8c8c8c;
   }
   
   header {
@@ -83,7 +93,6 @@
     background-color: #fff;
     position :fixed;
     top: 0;
-    z-index: 10;
   }
   
   .logo {
@@ -94,6 +103,7 @@
   .header-left {
     float: left;
     padding:15px 0;
+    color:#777;
   }
   
   .header-right {
@@ -112,7 +122,7 @@
   }
   
   .header-right a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    color: #333;
   }
   
   .skilllist {
@@ -134,8 +144,6 @@
   .skill {
     float: left;
     margin:0 100px 100px 0;
-    width:300px;
-    height:300px;
   }
 
   .skill:nth-child(3){
@@ -150,6 +158,11 @@
     position: relative;
     width:300px;
     height:300px;
+    opacity: 0.7;
+  }
+
+  .skill-icon:hover{
+    opacity: 1;
   }
 
   .iconimg{
@@ -161,56 +174,84 @@
     font-weight: normal;
   }
   
-  .message-wrapper {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 80px;
-    text-align: center;
+  .plans {
     background-color: #d0dfea;
   }
 
   ul {
     list-style: none;
     margin: 0px;
-    padding: 60px 0px;
+    padding: 50px 0 50px 0;
     text-align: center;
   }
 
   li {
     color: black;
-    height: 80px;
-    font-weight: bold;
-    line-height: 80px;
+    padding:10px;
     width:25%;
+    line-height: 26px;
+  }
+
+  .plans h2{
+    padding-top: 50px;
   }
 
   .plan {
+    border-left-width:2px;
+    border-bottom-width:2px;
+    border-color: #fff;
+    border-style: solid;
     background-color: #6ba7eb;
     font-size: 16px;
-    width:25%;
-
+    font-weight: bold;
   }
-  .plice {
+
+  .plan1 {
+    border-left-width:2px;
+    border-bottom-width:2px;
+    border-color: #fff;
+    border-style: solid;
     background-color: #f9f9f9;
     font-size: 16px;
-    width:25%;
-
   }
-  .delivery {
+
+  .plan2 {
+    border-left-width:2px;
+    border-bottom-width:2px;
+    border-color: #fff;
+    border-style: solid;
     background-color: #e0efff;
     font-size: 16px;
-    width:25%;
-
-  }
-  .analisys {
-    background-color: #f9f9f9;
-    font-size: 16px;
-    width:25%;
   }
 
-  .inprovement {
-    background-color: #e0efff;
-    font-size: 16px;
-    width:25%;
+  li:nth-child(1){
+    border-left-width:0;
+    font-weight: bold;
+  }
+
+  li:nth-child(5){
+    border-left-width:0;
+    font-weight: bold;
+  }
+
+  li:nth-child(9){
+    border-left-width:0;
+    font-weight: bold;
+  }
+
+  li:nth-child(13){
+    border-left-width:0;
+    font-weight: bold;
+  }
+
+  li:nth-child(17){
+    border-left-width:0;
+    font-weight: bold;
+  }
+
+  li:nth-child(21){
+    border-left-width:0;
+    font-weight: bold;
   }
 
   .icons-wrapper{
@@ -223,12 +264,20 @@
   }
 
   .icon{
-    color:#8c8c8c;
     font-size:40px;
-    height:185px;
     width:185px;
     margin:25px 0 25px 0;
     overflow:hidden;
+  }
+
+  .icon:hover{
+    transition: all 0.5s;
+    background-color: #fff;
+  }
+
+
+  .icon:nth-child(1){
+    margin-left:180px;
   }
 
   .flex-list{

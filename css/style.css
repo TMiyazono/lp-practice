@@ -8,6 +8,20 @@
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN";
   }
+
+  header {
+    width: 100%;
+    background-color: #fff;
+    position :fixed;
+    top: 0;
+    z-index:10;
+  }
+  .menu-icon {
+    float: right;
+    font-size: 50px;
+    padding: 21px 0;
+    display: none !important;
+  }
   
   a {
     text-decoration: none;
@@ -20,7 +34,8 @@
   }
   
   .keyvisual {
-    padding: 400px 0;
+    padding:400px 0;
+    margin-top: 78px;
     background-image:url("images/keyvisual/keyvisual.jpg");
     background-size: cover;
     color: white;
@@ -45,6 +60,12 @@
     padding-top: 50px;
   }
 
+  .heading p{
+    line-height: 18px;
+    font-size:15px;
+    word-break:break-all;
+  }
+
   .newspic{
     width:250px;
   }
@@ -63,7 +84,7 @@
     letter-spacing: 10px;
   }
 
-  .skills h2{
+  .skills{
     margin-top: 50px;
   }
 
@@ -86,13 +107,6 @@
 
   .fa-brands{
     color:#8c8c8c;
-  }
-  
-  header {
-    width: 100%;
-    background-color: #fff;
-    position :fixed;
-    top: 0;
   }
   
   .logo {
@@ -142,7 +156,6 @@
   }
   
   .skill {
-    float: left;
     margin:0 100px 100px 0;
   }
 
@@ -175,28 +188,21 @@
   }
   
   .plans {
+    padding:50px 0 50px 0;
     background-color: #d0dfea;
   }
 
-  ul {
-    list-style: none;
-    margin: 0px;
-    padding: 50px 0 50px 0;
+  table {
+    margin-top: 50px;
+    width:100%;
     text-align: center;
   }
 
-  li {
+  th{
     color: black;
     padding:10px;
     width:25%;
     line-height: 26px;
-  }
-
-  .plans h2{
-    padding-top: 50px;
-  }
-
-  .plan {
     border-left-width:2px;
     border-bottom-width:2px;
     border-color: #fff;
@@ -206,50 +212,35 @@
     font-weight: bold;
   }
 
-  .plan1 {
+  td{
+    color: black;
+    padding:10px;
+    width:25%;
+    line-height: 26px;
     border-left-width:2px;
     border-bottom-width:2px;
     border-color: #fff;
     border-style: solid;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .plan1 {
     background-color: #f9f9f9;
     font-size: 16px;
   }
 
   .plan2 {
-    border-left-width:2px;
-    border-bottom-width:2px;
-    border-color: #fff;
-    border-style: solid;
     background-color: #e0efff;
     font-size: 16px;
   }
 
-  li:nth-child(1){
+  th:nth-child(1){
     border-left-width:0;
     font-weight: bold;
   }
 
-  li:nth-child(5){
-    border-left-width:0;
-    font-weight: bold;
-  }
-
-  li:nth-child(9){
-    border-left-width:0;
-    font-weight: bold;
-  }
-
-  li:nth-child(13){
-    border-left-width:0;
-    font-weight: bold;
-  }
-
-  li:nth-child(17){
-    border-left-width:0;
-    font-weight: bold;
-  }
-
-  li:nth-child(21){
+  td:nth-child(1){
     border-left-width:0;
     font-weight: bold;
   }
@@ -260,7 +251,7 @@
   }
 
   .icons{
-    padding:200px 0 200px 0;
+    padding:200px 0 ;
   }
 
   .icon{
@@ -274,7 +265,6 @@
     transition: all 0.5s;
     background-color: #fff;
   }
-
 
   .icon:nth-child(1){
     margin-left:180px;

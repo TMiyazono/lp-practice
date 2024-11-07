@@ -147,6 +147,7 @@
   .is_flex{
     display: flex;
     flex-wrap:wrap;
+    justify-content: center;
   }
 
   .heading {
@@ -159,11 +160,7 @@
     margin:0 100px 100px 0;
   }
 
-  .skill:nth-child(3){
-    margin:0;
-  }
-
-  .skill:nth-child(6){
+  .skill:nth-child(3n){
     margin:0;
   }
   
@@ -192,7 +189,7 @@
     background-color: #d0dfea;
   }
 
-  table {
+  table{
     margin-top: 50px;
     width:100%;
     text-align: center;
@@ -264,10 +261,6 @@
   .icon:hover{
     transition: all 0.5s;
     background-color: #fff;
-  }
-
-  .icon:nth-child(1){
-    margin-left:180px;
   }
 
   .flex-list{
